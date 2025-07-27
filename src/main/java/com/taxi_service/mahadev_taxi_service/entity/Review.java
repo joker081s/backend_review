@@ -10,6 +10,7 @@ public class Review {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
+    @Column(length = 1000)
     private String review;
 
     public Review() {
